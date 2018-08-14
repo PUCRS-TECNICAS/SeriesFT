@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-       // TODO: aplicacao para demonstrar o uso da API
+       Lambert l = new Lambert();
+       l.W0(0.1);
+       System.out.println(l.getTermos());
     }
 }
